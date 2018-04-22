@@ -1,0 +1,123 @@
+﻿{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://use.fontawesome.com/6e47fdd73a.js"></script> <!--Font Awesome-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wei-Chih Tsai | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,700" rel="stylesheet">
+    <link href = "{% static 'css/style.css' %}" rel = "stylesheet">
+</head>
+<body>
+    <!-- // Intro -->
+    <header id="about">
+        <a href="Wei-Chih-Tsai-Resume.pdf" class="btn download" download>Download PDF</a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+            <a href="http://127.0.0.1:8000/blog/">Blog</a>
+        </nav>
+        <div class="content-wrap">
+            <img class="profile-img col-narrow" src="{% static 'images/profile.png' %}" alt="Wei-Chih Tsai">
+            <div class="col-wide">
+                <h1>Wei-Chih Tsai</h1>
+                <!--<h2>Job title or tagline</h2>-->
+                <p>Passion and diligence are two traits that I believe most reflect me as an individual. They are qualities that have driven me in my quest to advocate for and support those in need. My expertise includes project management and software development and I love to generate new ideas and devise feasible solutions to broadly relevant problems. Currently, I am seeking employment opportunities that will allow me to use my diverse skill set to work with people, develop and improve software for user needs.</p>
+            </div>
+        </div>
+    </header>
+    
+    <main> 
+        <!-- Skills -->
+        <section class="skills">
+            <div class="content-wrap">
+                <h2>Skills and Interests</h2>
+                <p>Languages: Chinese, English</p>
+                <p>Programming Languages: C#, C++, Python, HTML, CSS</p>
+                <p>Project Management: MS Project</p>
+                <p>Common Software: MS Office Suite</p>
+                <p>Interests: Software Development, Web Development</p>                                
+            </div>
+        </section>
+        <!-- // Work Experience -->
+        <section id="work" class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+                <!-- Job Details: copy this whole block to add more jobs -->
+                <!-- First Job -->
+                <div class="col-narrow">
+                    <h3>Experientail Network Project Assistant</h3>
+                    <p class="uppercase">The Curtis Leadership Foundation</p>
+                    <p>Sep, 2017 - Dec, 2017</p>
+                </div>
+
+                <!-- Add as many paragraphs as you need. -->
+                <div class="col-wide job-description">
+                    <p>Used WeVideo tool to help the real-world sponsor to make a documentary with content related to leadership and innovation by retrieving the best moments from a huge amount of footage that the sponsor interviewed others to make the majority aware of the future changes.</p>
+                </div>
+                <!--Second job-->
+                <div class="col-narrow">
+                    <h3>Database Assistant</h3>
+                    <p class="uppercase">National Chi-Nan University</p>
+                    <p>Sep, 2011 - Sep, 2013</p>
+                </div>
+
+                <!-- Add as many paragraphs as you need. -->
+                <div class="col-wide job-description">
+                    <p>Maintained school database with Unix operating system. Retained database by trouble-shooting problems. Secured system safety from anonymous cyberattacks.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- // Education -->
+        <section id="education" class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>Northeastern University, Boston, MA</h3>
+                <p>Master of Science in Informatics with concentration on Leading and Managing Technical Projects, 2016-2017</p>
+
+                <!-- Add as many paragraphs as you need. -->
+                <p>Full-Time program</p>
+                <!-- End of school details. -->
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>National Chi-Nan University, Nantou, Taiwan</h3>
+                <p>Master of Science in Computer Science and Information Engineering, 2011-2014</p>
+
+                <!-- Add as many paragraphs as you need. -->
+                <p>Full-Time program</p>
+                <!-- End of school details. -->
+
+                <!-- School details: copy this whole block to add more schools. -->
+                <h3>Chaoyang University of Technology, Taichung, Taiwan</h3>
+                <p>Bachelor of Science in Computer Science and Information Engineering, 2007-2011</p>
+
+                <!-- Add as many paragraphs as you need. -->
+                <p>Full-Time program</p>
+                <!-- End of school details. -->
+            </div>
+        </section>
+    </main>
+    
+    <!-- // Footer & contact info -->
+    <footer id="contact">
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+        
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="wei780627@gamil.com"><i class="fa fa-envelope-square" aria-hidden="true" style="background: white"></i><span class="cr-only"> Email</span></a>
+                <a href="https://www.linkedin.com/in/wei-chih-tsai-106744149/"><i class="fa fa-linkedin" aria-hidden="true" style="background: #333BC3; color: white"></i><span class="cr-only"> LinkedIn</span></a>
+                <a href="https://www.facebook.com/profile.php?id=100002350307141"><i class="fa fa-facebook" aria-hidden="true" style="background: #333BC3; color: white; width: 15px"></i><span class="cr-only"> Facebook</span></a>
+            </div>
+
+            <p>Copyright 2017 by Wei-Chih Tsai</p>
+        </div>
+    </footer>
+</body>
+</html>
